@@ -139,7 +139,7 @@ void setup() {
   /* Section3*/
   b3                  = new FBox(9, 9.0); // diameter is 2
   b3.setPosition(worldWidth-3.5, edgeTopLeftY+worldHeight/2.0);
-  b3.setFill(0, 20, 200);
+  b3.setFill(0, 0, 200);
   b3.setStaticBody(true);
   b3.setDensity(500);
   b3.setSensor(false);
@@ -150,7 +150,7 @@ void setup() {
   /* moving wave*/
   mo            = new FBox(2, 9.0);
   mo.setPosition(wave, edgeTopLeftY+worldHeight/2.0);
-  mo.setFill(0, 200, 200);
+  mo.setFill(0, 0, 200);
   mo.setStaticBody(true);
   mo.setSensor(true);
   mo.setDensity(500);
